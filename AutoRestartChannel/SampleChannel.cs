@@ -5,10 +5,10 @@ using System.IO;
 using System.Text;
 using System.Xml.Linq;
 
-namespace SampleChannel
+namespace AutoRestartChannel
 {
     // Note: "System.Runtime.Serialization" -- This Assembly need to be added as a reference to this Project.
-    public class FileChannel : IChannelNotification
+    public class AutoRestartChannel : IChannelNotification
     {
         public string GetGlobalPropertiesSchema()
         {
